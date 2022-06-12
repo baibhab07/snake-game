@@ -31,7 +31,7 @@ function keyPressed() {
     snake.dir = "right";
   } else if (keyCode == UP_ARROW && snake.dir != "down") {
     snake.dir = "up";
-  } else if (keyCode == DOWN_ARROW && snake.dor != "up") {
+  } else if (keyCode == DOWN_ARROW && snake.dir != "up") {
     snake.dir = "down";
   }
 }
